@@ -6,9 +6,15 @@
     "react-scripts": "0.9.3"
   },
   "dependencies": {
+    "axios": "^0.15.3",
+    "babel-polyfill": "6.3.14",
+    "rc-slider": "^6.1.2",
     "react": "^15.4.2",
+    "react-bootstrap-slider": "^1.1.4",
     "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
     "react-saga": "^0.2.4",
+    "react-slider": "^0.7.0",
     "redux": "^3.6.0",
     "redux-saga": "^0.14.3"
   },

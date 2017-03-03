@@ -1,0 +1,594 @@
+{
+    "data": [{
+        "amountInvested": 5000,
+        "recommendedRisk": 3,
+        "yearsInvesting": 3,
+        "monthlyContribution": 100,
+        "risk": {
+            "1": {
+                "riskLevel": 1,
+                "assetAllocation": {
+                    "domesticStock": {
+                        "type": "domestic Stock",
+                        "percent": 14,
+                        "value": 700,
+                        "breakDown": {
+                            "s&p500": {
+                                "type": "S&P 500 IVV",
+                                "percent": 11.48,
+                                "value": 574
+                            },
+                            "s&pMidCap": {
+                                "type": "S&P MidCap",
+                                "percent": 1.40,
+                                "value": 70
+                            },
+                            "s&pSmallCap": {
+                                "type": "S&P SmallCap",
+                                "percent": 1.12,
+                                "value": 56
+                            }
+                        }
+                    },
+                    "foreignStock": {
+                        "type": "Foreign Stock",
+                        "percent": 6,
+                        "value": 300,
+                        "breakDown": {
+                            "usIndexFund": {
+                                "type": "US Index Fund - Premium Class",
+                                "percent": 6,
+                                "value": 300
+                            }
+                        }
+                    },
+                    "bonds": {
+                        "type": "Bonds",
+                        "percent": 50,
+                        "value": 2500,
+                        "breakDown": {
+                            "municipalIncomeFund": {
+                                "type": "Municipal Income Fund",
+                                "percent": 45,
+                                "value": 2250
+                            },
+                            "limitedTermFund": {
+                                "type": "Limited Term Fund",
+                                "percent": 5,
+                                "value": 250
+                            }
+                        }
+                    },
+                    "shortTerm": {
+                        "type": "Short Term",
+                        "percent": 30,
+                        "value": 1500,
+                        "breakDown": {
+                            "institutionalClass": {
+                                "type": "Institutional Class",
+                                "percent": 29.5,
+                                "value": 1475
+                            },
+                            "cashReserve": {
+                                "type": "Cash Reserve",
+                                "percent": 0.5,
+                                "value": 25
+                            }
+                        }
+                    }
+                },
+                "series": {
+                    "weak": {
+                        "type": "weak",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5050
+                        }, {
+                            "year": 2017,
+                            "value": 5100
+                        }]
+                    },
+                    "strong": {
+                        "type": "strong",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5100
+                        }, {
+                            "year": 2017,
+                            "value": 5200
+                        }]
+                    },
+                    "average": {
+                        "type": "average",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5075
+                        }, {
+                            "year": 2017,
+                            "value": 5150
+                        }]
+                    }
+                }
+            },
+            "2": {
+                "riskLevel": 2,
+                "assetAllocation": {
+                    "domesticStock": {
+                        "type": "Domestic Stock",
+                        "percent": 21,
+                        "value": 1050,
+                        "breakDown": {
+                            "s&p500": {
+                                "type": "S&P 500 IVV",
+                                "percent": 17.22,
+                                "value": 861
+                            },
+                            "s&pMidCap": {
+                                "type": "S&P MidCap",
+                                "percent": 2.10,
+                                "value": 105
+                            },
+                            "s&pSmallCap": {
+                                "type": "S&P SmallCap",
+                                "percent": 1.68,
+                                "value": 84
+                            }
+                        }
+                    },
+                    "foreignStock": {
+                        "type": "Foreign Stock",
+                        "percent": 9,
+                        "value": 450,
+                        "breakDown": {
+                            "usIndexFund": {
+                                "type": "US Index Fund",
+                                "percent": 9,
+                                "value": 450
+                            }
+                        }
+                    },
+                    "bonds": {
+                        "type": "Bonds",
+                        "percent": 50,
+                        "value": 2500,
+                        "breakDown": {
+                            "municipalIncomeFund": {
+                                "type": "Municipal Income Fund",
+                                "percent": 45,
+                                "value": 2250
+                            },
+                            "limitedTermFund": {
+                                "type": "Limited Term Fund",
+                                "percent": 5,
+                                "value": 250
+                            }
+                        }
+                    },
+                    "shortTerm": {
+                        "type": "Short Term",
+                        "percent": 20,
+                        "value": 1000,
+                        "breakDown": {
+                            "institutionalClass": {
+                                "type": "Institutional Class",
+                                "percent": 19.5,
+                                "value": 975
+                            },
+                            "cashReserve": {
+                                "type": "Cash Reserve",
+                                "percent": 0.5,
+                                "value": 25
+                            }
+                        }
+                    }
+                },
+                "series": {
+                    "weak": {
+                        "type": "weak",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5060
+                        }, {
+                            "year": 2017,
+                            "value": 5110
+                        }]
+                    },
+                    "strong": {
+                        "type": "strong",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5110
+                        }, {
+                            "year": 2017,
+                            "value": 5210
+                        }]
+                    },
+                    "average": {
+                        "type": "average",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5085
+                        }, {
+                            "year": 2017,
+                            "value": 5160
+                        }]
+                    }
+                }
+            },
+            "3": {
+                "riskLevel": 3,
+                "assetAllocation": {
+                    "domesticStock": {
+                        "type": "Domestic Stock",
+                        "percent": 28,
+                        "value": 1400,
+                        "breakDown": {
+                            "s&p500": {
+                                "type": "S&P 500 IVV",
+                                "percent": 22.96,
+                                "value": 1148
+                            },
+                            "s&pMidCap": {
+                                "type": "S&P MidCap",
+                                "percent": 2.80,
+                                "value": 140
+                            },
+                            "s&pSmallCap": {
+                                "type": "S&P SmallCap",
+                                "percent": 2.24,
+                                "value": 112
+                            }
+                        }
+                    },
+                    "foreignStock": {
+                        "type": "Foreign Stock",
+                        "percent": 12,
+                        "value": 600,
+                        "breakDown": {
+                            "usIndexFund": {
+                                "type": "US Index Fund",
+                                "percent": 12,
+                                "value": 600
+                            }
+                        }
+                    },
+                    "bonds": {
+                        "type": "Bonds",
+                        "percent": 45,
+                        "value": 2250,
+                        "breakDown": {
+                            "municipalIncomeFund": {
+                                "type": "Municipal Income Fund",
+                                "percent": 40.50,
+                                "value": 2025
+                            },
+                            "limitedTermFund": {
+                                "type": "Limited Term Fund",
+                                "percent": 4.50,
+                                "value": 225
+                            }
+                        }
+                    },
+                    "shortTerm": {
+                        "type": "Short Term",
+                        "percent": 15,
+                        "value": 750,
+                        "breakDown": {
+                            "institutionalClass": {
+                                "type": "Institutional Class",
+                                "percent": 14.5,
+                                "value": 725
+                            },
+                            "cashReserve": {
+                                "type": "Cash Reserve",
+                                "percent": 0.5,
+                                "value": 25
+                            }
+                        }
+                    }
+                },
+                "series": {
+                    "weak": {
+                        "type": "weak",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5070
+                        }, {
+                            "year": 2017,
+                            "value": 5120
+                        }]
+                    },
+                    "strong": {
+                        "type": "strong",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5120
+                        }, {
+                            "year": 2017,
+                            "value": 5220
+                        }]
+                    },
+                    "average": {
+                        "type": "average",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5090
+                        }, {
+                            "year": 2017,
+                            "value": 5160
+                        }]
+                    }
+                }
+            },
+            "4": {
+                "riskLevel": 4,
+                "assetAllocation": {
+                    "domesticStock": {
+                        "type": "Domestic Stock",
+                        "percent": 35,
+                        "value": 1750,
+                        "breakDown": {
+                            "s&p500": {
+                                "type": "S&P 500 IVV",
+                                "percent": 28.70,
+                                "value": 1435
+                            },
+                            "s&pMidCap": {
+                                "type": "S&P MidCap",
+                                "percent": 3.50,
+                                "value": 175
+                            },
+                            "s&pSmallCap": {
+                                "type": "S&P SmallCap",
+                                "percent": 2.80,
+                                "value": 140
+                            }
+                        }
+                    },
+                    "foreignStock": {
+                        "type": "Foreign Stock",
+                        "percent": 15,
+                        "value": 750,
+                        "breakDown": {
+                            "usIndexFund": {
+                                "type": "US Index Fund",
+                                "percent": 15,
+                                "value": 750
+                            }
+                        }
+                    },
+                    "bonds": {
+                        "type": "Bonds",
+                        "percent": 40,
+                        "value": 2000,
+                        "breakDown": {
+                            "municipalIncomeFund": {
+                                "type": "Municipal Income Fund",
+                                "percent": 36,
+                                "value": 1800
+                            },
+                            "limitedTermFund": {
+                                "type": "Limited Term Fund",
+                                "percent": 4,
+                                "value": 200
+                            }
+                        }
+                    },
+                    "shortTerm": {
+                        "type": "Short Term",
+                        "percent": 10,
+                        "value": 500,
+                        "breakDown": {
+                            "institutionalClass": {
+                                "type": "Institutional Class",
+                                "percent": 9.5,
+                                "value": 475
+                            },
+                            "cashReserve": {
+                                "type": "Cash Reserve",
+                                "percent": 0.5,
+                                "value": 25
+                            }
+                        }
+                    }
+                },
+                "series": {
+                    "weak": {
+                        "type": "weak",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5080
+                        }, {
+                            "year": 2017,
+                            "value": 5130
+                        }]
+                    },
+                    "strong": {
+                        "type": "strong",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5130
+                        }, {
+                            "year": 2017,
+                            "value": 5230
+                        }]
+                    },
+                    "average": {
+                        "type": "average",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5095
+                        }, {
+                            "year": 2017,
+                            "value": 5165
+                        }]
+                    }
+                }
+            },
+            "5": {
+                "riskLevel": 5,
+                "assetAllocation": {
+                    "domesticStock": {
+                        "type": "Domestic Stock",
+                        "percent": 42,
+                        "value": 2100,
+                        "breakDown": {
+                            "s&p500": {
+                                "type": "S&P 500 IVV",
+                                "percent": 34.44,
+                                "value": 1722
+                            },
+                            "s&pMidCap": {
+                                "type": "S&P MidCap",
+                                "percent": 4.20,
+                                "value": 210
+                            },
+                            "s&pSmallCap": {
+                                "type": "S&P SmallCap",
+                                "percent": 3.36,
+                                "value": 168
+                            }
+                        }
+                    },
+                    "foreignStock": {
+                        "type": "Foreign Stock",
+                        "percent": 18,
+                        "value": 900,
+                        "breakDown": {
+                            "usIndexFund": {
+                                "type": "US Index Fund",
+                                "percent": 18,
+                                "value": 900
+                            }
+                        }
+                    },
+                    "bonds": {
+                        "type": "Bonds",
+                        "percent": 35,
+                        "value": 1750,
+                        "breakDown": {
+                            "municipalIncomeFund": {
+                                "type": "Municipal Income Fund",
+                                "percent": 31.50,
+                                "value": 1575
+                            },
+                            "limitedTermFund": {
+                                "type": "Limited Term Fund",
+                                "percent": 3.50,
+                                "value": 175
+                            }
+                        }
+                    },
+                    "shortTerm": {
+                        "type": "Short Term",
+                        "percent": 5,
+                        "value": 250,
+                        "breakDown": {
+                            "institutionalClass": {
+                                "type": "Institutional Class",
+                                "percent": 4.5,
+                                "value": 225
+                            },
+                            "cashReserve": {
+                                "type": "Cash Reserve",
+                                "percent": 0.5,
+                                "value": 25
+                            }
+                        }
+                    }
+                },
+                "series": {
+                    "weak": {
+                        "type": "weak",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5080
+                        }, {
+                            "year": 2017,
+                            "value": 5130
+                        }]
+                    },
+                    "strong": {
+                        "type": "strong",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5130
+                        }, {
+                            "year": 2017,
+                            "value": 5230
+                        }]
+                    },
+                    "average": {
+                        "type": "average",
+                        "data": [{
+                            "year": 2017,
+                            "value": 5000
+                        }, {
+                            "year": 2018,
+                            "value": 5095
+                        }, {
+                            "year": 2017,
+                            "value": 5165
+                        }]
+                    }
+                }
+            }
+        },
+        "questions":[
+        	{
+        		"question":"Can I withdraw my money?",
+        		"answer":"Yes you can. It will take 10 business days."
+        	},
+        	{
+        		"question":"What happens after I fund my account?",
+        		"answer":"We'll purchase the stocks based on the stratergy you chose."
+        	},
+        	{
+        		"question":"who chooses my investment?",
+        		"answer":"I do!"
+        	}
+        ]
+    }]
+}

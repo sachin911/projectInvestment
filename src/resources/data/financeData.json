@@ -1,0 +1,51 @@
+{
+    "data": [{
+        "yearsToInvest": 3,
+        "defaultRiskLevel": 3,
+        "riskArray": {
+            "1": {
+                "domesticStock": 14,
+                "foreignStock": 6,
+                "bonds": 50,
+                "shortTerm": 30
+            },
+            "2": {
+                "domesticStock": 21,
+                "foreignStock": 9,
+                "bonds": 50,
+                "shortTerm": 20
+            },
+            "3": {
+                "domesticStock": 28,
+                "foreignStock": 12,
+                "bonds": 45,
+                "shortTerm": 15
+            },
+            "4": {
+                "domesticStock": 35,
+                "foreignStock": 15,
+                "bonds": 40,
+                "shortTerm": 10
+            },
+            "5": {
+                "domesticStock": 42,
+                "foreignStock": 18,
+                "bonds": 35,
+                "shortTerm": 5
+            },
+            "6": {
+                "domesticStock": 49,
+                "foreignStock": 21,
+                "bonds": 25,
+                "shortTerm": 5
+            },
+            "7": {
+                "domesticStock": 60,
+                "foreignStock": 25,
+                "bonds": 15,
+                "shortTerm": 1
+            }
+        },
+        "amountInvested" : 5000
+    }]
+}
