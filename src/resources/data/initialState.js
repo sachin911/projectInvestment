@@ -8,7 +8,7 @@ export default {
             "riskLevel": 1,
             "assetAllocation": {
                 "domesticStock": {
-                    "type": "domestic Stock",
+                    "type": "Domestic Stock",
                     "percent": 0,
                     "value": 0,
                     "breakDown": {
