@@ -2,6 +2,8 @@ import React, { PropTypes, Component } from 'react';
 import { connect } from 'react-redux';
 import SliderComp from './components/slider/Slider';
 import AssetText from './components/assetTypesText/AssetText';
+import AreaChart from './Gary_Components/areaChart/index';
+
 import './App.css';
 
 export class App extends Component {
@@ -33,6 +35,7 @@ export class App extends Component {
                 < /div>
                 < SliderComp stateData={stateData} recommendedRisk={recommendedRisk} max={max} setActiveState={this.setActiveState} / >
                 <AssetText information={this.state.currentRisk} recommendedRisk={recommendedRisk} />
+                <AreaChart />
             < /div>
         );
     }
