@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import SliderComp from './components/slider/Slider';
 import AssetText from './components/assetTypesText/AssetText';
 import AreaChart from './Gary_Components/areaChart/index';
+import QuestionComponent from './components/questionComponent/QuestionComponent';
 
 import './App.css';
 
@@ -34,8 +35,9 @@ export class App extends Component {
                     < h2 > Investment Strategy < /h2>
                 < /div>
                 < SliderComp stateData={stateData} recommendedRisk={recommendedRisk} max={max} setActiveState={this.setActiveState} / >
-                <AssetText information={this.state.currentRisk} recommendedRisk={recommendedRisk} />
-                <AreaChart />
+                < AssetText information={this.state.currentRisk} recommendedRisk={recommendedRisk} />
+                < AreaChart />
+                < QuestionComponent questions={stateData.questions}/>
             < /div>
         );
     }

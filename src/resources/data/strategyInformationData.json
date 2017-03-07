@@ -588,7 +588,19 @@
         	{
         		"question":"who chooses my investment?",
         		"answer":"I do!"
-        	}
+        	},
+            {
+                "question":"Are you crazy to invest your money??",
+                "answer":"I am kind of crazy, I add mustard to my PB&J so that says something about me."
+            },
+            {
+                "question":"Are you rich?",
+                "answer":"I owe a lot of people a lot of money"
+            },
+            {
+                "question":"I cant find anything funny to ask here",
+                "answer":"its ok."
+            }
         ]
     }]
 }

@@ -31,7 +31,7 @@ const config = {
             enabled : false,
             lineWidth : 2 , 
             lineColor : null,
-            symble : 'circle'
+            // symble : 'square'
         }
     }
   },
